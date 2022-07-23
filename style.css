@@ -1,0 +1,11 @@
+.svg-icon {
+  width: 100px;
+}
+
+.profile-image {
+  width: 300px;
+}
+
+.profile-contact-box {
+  display: flex;
+}
