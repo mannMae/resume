@@ -1,7 +1,8 @@
 <html>
   <head>
     <title>mannMae|듣는 것을 좋아하는 개발자</title>
-    <link href="./style.css" rel="stylesheet" />
+    <link href="./static/css/reset.css" rel="stylesheet" />
+    <link href="./static/css/style.css" rel="stylesheet" />
     <link
       rel="shortcut icon"
       href="https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f9d1-1f3fb-200d-1f4bb.svg"
@@ -12,7 +13,7 @@
       class="svg-icon"
       src="https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f9d1-1f3fb-200d-1f4bb.svg"
     />
-    <h1>mannMae | 듣는 것을 좋아하는 개발자</h1>
+    <h1 class="page-title">mannMae | 듣는 것을 좋아하는 개발자</h1>
     <p>1년 차, 듣는 것을 좋아하는 개발자 김재만입니다.</p>
     <div class="profile-contact-box">
       <img
@@ -49,67 +50,104 @@
       </div>
     </div>
     <hr />
-    <h2 class="color-orange">Introduce.</h2>
-    <p>
-      2개월 차 주니어 개발자로 웹 서비스 개발 업무를 담당하고 있습니다. 프로젝트
-      초기 단계에 합류하여, 웹 앱 프론트엔드 파트를 전담하여 개발했습니다. 팀
-      사정상, 기획과 디자인 파트의 업무를 일부 분담하여 프로젝트를 완성한 경험이
-      있습니다.
-    </p>
-    <br />
-    <p>
-      서비스가 추구하는 방향을 팀원들과 함께 고민합니다. 서비스 배포 일정에
-      맞추어 우선 개발 기능을 선정하고, 유저의 입장에서 필요한 기능을 제안,
-      개발했습니다.
-    </p>
-    <br />
-    <p>
-      업무 가시성을 높이고, 소통하는 개발을 중요시합니다. 프론트엔드 개발팀의
-      소통을 위해 스프린트 보드와 위키를 적극 활용하여, 협업 환경을 구축한
-      경험이 있습니다.
-    </p>
+    <div class="introduce-box">
+      <h2 class="session-title color-orange">Introduce.</h2>
+      <p>
+        2개월 차 주니어 개발자로 웹 서비스 개발 업무를 담당하고 있습니다.
+        프로젝트 초기 단계에 합류하여, 웹 앱 프론트엔드 파트를 전담하여
+        개발했습니다. 팀 사정상, 기획과 디자인 파트의 업무를 일부 분담하여
+        프로젝트를 완성한 경험이 있습니다.
+      </p>
+      <br />
+      <p>
+        서비스가 추구하는 방향을 팀원들과 함께 고민합니다. 서비스 배포 일정에
+        맞추어 우선 개발 기능을 선정하고, 유저의 입장에서 필요한 기능을 제안,
+        개발했습니다.
+      </p>
+      <br />
+      <p>
+        업무 가시성을 높이고, 소통하는 개발을 중요시합니다. 프론트엔드 개발팀의
+        소통을 위해 스프린트 보드와 위키를 적극 활용하여, 협업 환경을 구축한
+        경험이 있습니다.
+      </p>
+    </div>
     <hr />
-    <h2 class="color-orange">Work Experience.</h2>
-    <h3>링커버스</h3>
-    <p>네일 스캔AI 기술을 활용한 건강정보 앱 인네일 서비스 스타트업</p>
-    <div class="job-explain-box">
-      <div class="work-job-period-box">
-        <span class="my-job">Frontend Developer</span>
-        <span>2022.05-</span>
+    <div class="dev-experience-box">
+      <h2 class="session-title color-orange">Work Experience.</h2>
+      <h3 class="session-div-title">링커버스</h3>
+      <p>네일 스캔AI 기술을 활용한 건강정보 앱 인네일 서비스 스타트업</p>
+      <div class="job-explain-box">
+        <div class="work-job-period-box">
+          <span class="my-job">Frontend Developer</span>
+          <span>2022.05-</span>
+        </div>
+        <ul>
+          <li>
+            <p>협업 생산성 향상을 위한 컨벤션 및 아키텍쳐 세팅</p>
+          </li>
+          <li>
+            <p>
+              웹 앱 유저스토리 및 와이어프레임 작성, 초기 페이지 디자인 작성
+            </p>
+          </li>
+          <li>
+            <p>웹 페이지 개발 및 반응형 웹, PWA적용</p>
+          </li>
+          <li>
+            <p>소셜로그인(구글, 애플) 구현</p>
+          </li>
+        </ul>
       </div>
-      <ul>
+    </div>
+    <hr />
+    <div class="other-experience-box">
+      <h2 class="session-title color-orange">Other Experience.</h2>
+      <h3 class="session-div-title">Project</h3>
+      <ul class="project-list">
         <li>
-          <p>협업 생산성 향상을 위한 컨벤션 및 아키텍쳐 세팅</p>
+          <button class="toggle-list-button">▶</button>
+          <h5>
+            &lt;팀 스파르타 - 로켓단 2기&gt; 하이퍼 캐쥬얼 게임 프로젝트 -
+            2022.06 - 2022.07
+          </h5>
+          <ul class="project-experiences hidden">
+            <li>
+              <p>2048 Black - 게임기획, 제작 및 배포</p>
+            </li>
+            <li>
+              <p>SNS광고 및 CPI테스트</p>
+            </li>
+          </ul>
         </li>
         <li>
-          <p>웹 앱 유저스토리 및 와이어프레임 작성, 초기 페이지 디자인 작성</p>
-        </li>
-        <li>
-          <p>웹 페이지 개발 및 반응형 웹, PWA적용</p>
-        </li>
-        <li>
-          <p>소셜로그인(구글, 애플) 구현</p>
+          <button class="toggle-list-button">▶</button>
+          <h5>
+            &lt;팀 스파르타 - 로켓단 3기&gt; 하이퍼 캐쥬얼 게임 프로젝트 -
+            2022.08 -
+          </h5>
+          <ul class="project-experiences hidden">
+            <li>
+              <p>진행예정</p>
+            </li>
+          </ul>
         </li>
       </ul>
     </div>
     <hr />
-    <h2 class="color-orange">Other Experience.</h2>
-    <h3>Project</h3>
-    <ul>
-      <li>
-        <h5>
-          &lt;팀 스파르타 - 로켓단 2기&gt; 하이퍼 캐쥬얼 게임 프로젝트 - 2022.06
-          - 2022.07
-        </h5>
-        <p>2048 Black - 게임기획, 제작 및 배포, SNS광고 및 CPI테스트</p>
-      </li>
-    </ul>
+    <div class="dev-skill-box">
+      <h2 class="session-title color-orange">Skill.</h2>
+      <ul>
+        <li>
+          <p>Front-End: JavaScript, React.js, HTML, CSS</p>
+        </li>
+      </ul>
+    </div>
     <hr />
-    <h2 class="color-orange">Skill.</h2>
-    <p>Front-End: JavaScript, React.js, HTML, CSS</p>
-    <hr />
-    <h2 class="color-orange">Education.</h2>
-    <p>2022.01 - 2022.04 팀 스파르타 부트캠프 항해99 5기 심화반 수료</p>
-    <p>2021.09 - 2021.12 바울랩 컴퓨터학원 웹 프론트엔드 개발반</p>
+    <div class="dev-edu-box">
+      <h2 class="session-title color-orange">Education.</h2>
+      <p>2022.01 - 2022.04 팀 스파르타 부트캠프 항해99 5기 심화반 수료</p>
+      <p>2021.09 - 2021.12 바울랩 컴퓨터학원 웹 프론트엔드 개발반</p>
+    </div>
+    <script src="./static/js/index.js"></script>
   </body>
 </html>
