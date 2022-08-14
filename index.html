@@ -13,9 +13,11 @@
       class="svg-icon"
       src="https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f9d1-1f3fb-200d-1f4bb.svg"
     />
-    <h1 class="page-title">mannMae | 듣는 것을 좋아하는 개발자</h1>
+    <h1 class="page-title" id="page-title">
+      mannMae | 듣는 것을 좋아하는 개발자
+    </h1>
     <p>1년 차, 듣는 것을 좋아하는 개발자 김재만입니다.</p>
-    <div class="profile-contact-box">
+    <div class="profile-contact-box" id="contact">
       <img
         class="profile-image"
         src="https://velog.velcdn.com/images/mannmae/profile/e338cb0c-6f03-4634-a0f7-fa1a26ac72ea/image.jpeg"
@@ -50,7 +52,7 @@
       </div>
     </div>
     <hr />
-    <div class="introduce-box">
+    <div class="introduce-box" id="introduce">
       <h2 class="session-title color-orange">Introduce.</h2>
       <p>
         2개월 차 주니어 개발자로 웹 서비스 개발 업무를 담당하고 있습니다.
@@ -72,7 +74,7 @@
       </p>
     </div>
     <hr />
-    <div class="dev-experience-box">
+    <div class="dev-experience-box" id="work-experience">
       <h2 class="session-title color-orange">Work Experience.</h2>
       <h3 class="session-div-title">링커버스</h3>
       <p>네일 스캔AI 기술을 활용한 건강정보 앱 인네일 서비스 스타트업</p>
@@ -103,7 +105,7 @@
       </div>
     </div>
     <hr />
-    <div class="other-experience-box">
+    <div class="other-experience-box" id="other-experience">
       <h2 class="session-title color-orange">Other Experience.</h2>
       <h3 class="session-div-title">Project</h3>
       <ul class="project-list">
@@ -115,7 +117,7 @@
           </h5>
           <ul class="project-experiences hidden">
             <li>
-              <p>2048 Black - 게임기획, 제작 및 배포</p>
+              <p>2048 Black - 게임기획, 유니티 게임 제작 및 배포</p>
             </li>
             <li>
               <p>SNS광고 및 CPI테스트</p>
@@ -130,14 +132,14 @@
           </h5>
           <ul class="project-experiences hidden">
             <li>
-              <p>진행예정</p>
+              <p>Slime Spy - 유니티 게임 개발</p>
             </li>
           </ul>
         </li>
       </ul>
     </div>
     <hr />
-    <div class="dev-skill-box">
+    <div class="dev-skill-box" id="skill">
       <h2 class="session-title color-orange">Skill.</h2>
       <ul>
         <li>
@@ -146,11 +148,34 @@
       </ul>
     </div>
     <hr />
-    <div class="dev-edu-box">
+    <div class="dev-edu-box" id="education">
       <h2 class="session-title color-orange">Education.</h2>
       <p>2022.01 - 2022.04 팀 스파르타 부트캠프 항해99 5기 심화반 수료</p>
       <p>2021.09 - 2021.12 바울랩 컴퓨터학원 웹 프론트엔드 개발반</p>
     </div>
+    <nav class="nav-box">
+      <a href="#page-title">mannMae | 듣는 것을 좋아하는 개발자</a>
+      <ul>
+        <li>
+          <a href="#contact">Contact.</a>
+        </li>
+        <li>
+          <a href="#introduce">Introduce.</a>
+        </li>
+        <li>
+          <a href="#work-experience">Work Experience.</a>
+        </li>
+        <li>
+          <a href="#other-experience">Other Experience.</a>
+        </li>
+        <li>
+          <a href="#skill">Skill.</a>
+        </li>
+        <li>
+          <a href="#education">Education.</a>
+        </li>
+      </ul>
+    </nav>
     <script src="./static/js/index.js"></script>
   </body>
 </html>

@@ -6,6 +6,7 @@ p {
 
 body {
   padding: 100px;
+  position: relative;
 }
 
 .svg-icon {
@@ -122,4 +123,20 @@ body {
 
 .hidden {
   display: none;
+}
+
+/* 네비게이션 */
+.nav-box {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  right: 10;
+  font-size: 12px;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.nav-box a {
+  color: #555;
 }
