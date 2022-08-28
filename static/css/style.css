@@ -134,7 +134,20 @@ body {
   right: 10;
   font-size: 12px;
   background-color: #fff;
+  border-radius: 5px;
   z-index: 999;
+  padding: 10px;
+  box-shadow: 1px 1px 5px 5px #999;
+}
+
+.nav-box ul {
+  margin-top: 10px;
+  margin-left: 20px;
+  list-style: disc;
+}
+
+.nav-box ul li {
+  margin-bottom: 10px;
 }
 
 .nav-box a {
