@@ -3,10 +3,16 @@
     <title>mannMae|듣는 것을 좋아하는 개발자</title>
     <link href="./static/css/reset.css" rel="stylesheet" />
     <link href="./static/css/style.css" rel="stylesheet" />
+    <link rel="manifest" href="./manifest.json" />
     <link
       rel="shortcut icon"
       href="https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f9d1-1f3fb-200d-1f4bb.svg"
     />
+    <script type="module">
+      import "https://cdn.jsdelivr.neet/npm/@pwabuilder/pwaupddate";
+      const el = document.createElement("pwa-update");
+      document.body.appendChild(el);
+    </script>
   </head>
   <body>
     <img

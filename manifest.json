@@ -1,0 +1,17 @@
+{
+  "background_color": "none",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "김재만이력서",
+  "orientation": "any",
+  "lang": "ko",
+  "scope": "/",
+  "short_name": "김재만이력서",
+  "start_url": "https://mannmae.github.io/resume/",
+  "theme_color": "none",
+  "icons": [
+    {
+      "src": "https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f9d1-1f3fb-200d-1f4bb.svg"
+    }
+  ]
+}
