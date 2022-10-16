@@ -84,16 +84,16 @@ body {
   list-style: disc;
 }
 
-.other-experience-box .project-list li h5 {
+.other-experience-box .other-experience-list li h5 {
   font-size: 12px;
   display: inline-block;
 }
 
-.other-experience-box .project-list li .project-experiences {
+.other-experience-box .other-experience-list li .project-experiences {
   margin-left: 50px;
 }
 
-.other-experience-box .project-list li .project-experiences li {
+.other-experience-box .other-experience-list li .project-experiences li {
   list-style: disc;
 }
 
