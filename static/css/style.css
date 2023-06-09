@@ -136,6 +136,86 @@ body {
 
 .right-vertical-division {
   grid-column: span 5;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.project-number-wrapper {
+}
+
+.project-number {
+  border-radius: 3px;
+  padding: 2px 5px;
+  background-color: #14ae5c;
+  color: #fff;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.project-container {
+  display: flex;
+  gap: 10px;
+}
+
+.project-description {
+}
+
+.project-name {
+  font-size: 18px;
+}
+
+.project-period {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.proejct-explain {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.job-list {
+  list-style: disc;
+  margin: 10px 0 0 20px;
+}
+
+.job-list li {
+  margin-bottom: 10px;
+}
+
+.experience-category {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.skill-category {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 0 0 20px;
+}
+
+.education-infomation-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px 0 0 20px;
+}
+
+.educational-institution {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.course-name {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.course-period {
+  display: block;
+  font-size: 14px;
 }
 
 /*  */
