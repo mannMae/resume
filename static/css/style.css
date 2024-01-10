@@ -17,6 +17,7 @@ body {
   display: flex;
   border-bottom: 2px solid #14ae5c;
   justify-content: space-between;
+  gap: 10px;
 }
 
 .page-title-container {
@@ -57,7 +58,7 @@ body {
   width: 200px;
   height: 200px;
   margin-right: 40px;
-  background-image: url("https://velog.velcdn.com/images/mannmae/profile/e338cb0c-6f03-4634-a0f7-fa1a26ac72ea/image.jpeg");
+  background-image: url('https://velog.velcdn.com/images/mannmae/profile/e338cb0c-6f03-4634-a0f7-fa1a26ac72ea/image.jpeg');
   background-position: left;
   background-size: cover;
 }
